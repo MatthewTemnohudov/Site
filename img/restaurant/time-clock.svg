@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="19.5" viewBox="0 0 19.5 19.5">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#f35c01;stroke-linecap:round;stroke-width:1.5px;stroke-linejoin:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="time-clock" transform="translate(.75 .75)">
+        <g id="Group_991">
+            <path id="Path_77" fill="none" stroke="#f35c01" stroke-linecap="round" stroke-width="1.5px" d="M0 0v3" transform="translate(9)"/>
+            <path id="Line_24" d="M3 0L0 0" class="cls-2" transform="translate(15 9)"/>
+            <path id="Line_25" d="M0 3L0 0" class="cls-2" transform="translate(9 15)"/>
+            <path id="Line_26" d="M0 0L3 0" class="cls-2" transform="translate(0 9)"/>
+            <circle id="Ellipse_19" cx="9" cy="9" r="9" class="cls-2"/>
+            <path id="Path_76" d="M8 6l1.906 2.669h1.906" class="cls-2" transform="translate(-.906 1.412)"/>
+        </g>
+    </g>
+</svg>

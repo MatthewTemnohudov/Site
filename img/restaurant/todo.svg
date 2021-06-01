@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.1" height="20.5" viewBox="0 0 17.1 20.5">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#f35c01;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="todo" transform="translate(.75 .75)">
+        <g id="Group_1001">
+            <path id="Path_84" d="M14.7 1.5h1.2a1.207 1.207 0 0 1 1.2 1.214v14.572a1.207 1.207 0 0 1-1.2 1.214H2.7a1.207 1.207 0 0 1-1.2-1.214V2.714A1.207 1.207 0 0 1 2.7 1.5h1.2" class="cls-1" transform="translate(-1.5 .5)"/>
+            <path id="Rectangle_183" d="M0 0H7V4H0z" class="cls-1" transform="translate(4.3)"/>
+            <path id="Path_85" d="M5 10.085l3.085 3.085L14.254 7" class="cls-1" transform="translate(-1.827 1.188)"/>
+        </g>
+    </g>
+</svg>

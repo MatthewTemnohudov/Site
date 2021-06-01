@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Checkout Page</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    
+    <main class="checkout">
+      <div class="checkout__content">
+        <h2 class="checkout__title">סיום הזמנה</h2>
+        <form class="form-personal-information" action="">
+          <h3 class="checkout__sub-title">פרטים אישיים</h3>
+          <div class="checkout__wrap-input checkout__wrap-input_50per">
+            <input class="checkout__input" placeholder="שם" type="text">
+            <input class="checkout__input" placeholder="שם משפחה"  type="text">
+          </div>
+          <div class="checkout__wrap-input">
+            <input class="checkout__input" placeholder="שם על חשבונית (אופציונלי)" type="text">
+          </div>
+          <div class="checkout__wrap-input">
+            <input class="checkout__input" placeholder="דואר אלקטרוני" type="email">
+          </div>
+          <div class="checkout__wrap-input checkout__wrap-input_50per">
+            <input class="checkout__input" placeholder="טלפון" type="number">
+            <input class="checkout__input" placeholder="קופון (אופציונלי)" type="text">
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="future-order">
+            <span>הזמנה עתידית</span>
+          </div>
+          <div class="checkout__wrap-input checkbox-hide">
+            <input type="text" id="datepicker" class="checkout__input datepicker" placeholder="15/06/2020">
+            <div>
+              <span class="checkout__hour">שעה</span>
+              <input class="checkout__input timepicker" id="timepicker" type="text" placeholder="18:00">
+            </div>
+          </div>
+          <div class="checkout__wrap-input checkbox-hide">
+            <input class="checkout__input" placeholder="כתובת" type="text">
+          </div>
+          <div class="checkout__wrap-input checkout__wrap-input_33per checkbox-hide">
+            <input class="checkout__input" placeholder="כתובת" type="text">
+            <input class="checkout__input" placeholder="כתובת" type="text">
+            <input class="checkout__input" placeholder="כתובת" type="text">
+          </div>
+        </form>
+        <form class="form-your-order" action="">
+          <h3 class="checkout__sub-title">הזמנה שלכם</h3>
+          <div class="form-your-order__wrap-border">
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">בורגר1</span>
+              <span class="form-your-order__price-product">₪45</span>
+            </div>
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">בורגר2</span>
+              <span class="form-your-order__price-product">₪45</span>
+            </div>
+          </div>
+          <div class="form-your-order__wrap-border">
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">מחיר פריטים</span>
+              <span class="form-your-order__price-product">₪90</span>
+            </div>
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">קופון: שם/מספר</span>
+              <span class="form-your-order__price-product">
+                ₪45- <br>
+                <span class="form-your-order__delete">מחק</span>
+              </span>
+            </div>
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">משלוח</span>
+              <span class="form-your-order__price-product">₪20</span>
+            </div>
+            <div class="form-your-order__item">
+              <span class="form-your-order__name-product">סך הכל</span>
+              <span class="form-your-order__price-product">₪25</span>
+            </div>
+          </div>
+          <h3 class="checkout__sub-title">פרטי תשלום</h3>
+          <div class="form-your-order__payment-details">
+            <div class="form-your-order__wrap-radio">
+              <label for="">
+                <input type="radio" name="payment" id="cash" checked>
+                <span>מזומן</span>
+              </label>
+              <label for="">
+                <input type="radio" name="payment" id="credit">
+                <span>אשראי</span>
+              </label>
+            </div>
+            <div class="form-your-order__qr-code">
+              <img src="./img/restaurant/kdab_qr.png" alt="">
+            </div>
+          </div>
+
+          <div class="credit-split">
+            <label for="">
+              <input type="radio" name="credit-split" id="credit-split-1" checked>
+              <span>תשלום רגיל</span>
+            </label>
+            <label for="">
+              <input type="radio" name="credit-split" id="credit-split-2" >
+              <span>פיצול אשראי</span>
+            </label>
+          </div>
+
+          <div class="terms-of-use">
+            <div class="checkout__wrap-checkbox">
+              <input type="checkbox" name="" checked>
+              <span>קראתי והסכמתי לתנאי השימוש של האתר</span>
+            </div>
+            <div class="checkout__wrap-checkbox">
+              <input type="checkbox" name="">
+              <span>ברצוני לקבל הטבות ועדכונים במייל</span>
+            </div>
+            <div class="checkout__wrap-checkbox">
+              <input type="checkbox" name="" checked>
+              <span>אין צורך בסכן חד פעמי</span>
+            </div>
+            <button class="button-base">שלם</button>
+          </div>
+        </form>
+
+        <div class="form-credit" id="form-credit-1">
+          <h3 class="checkout__sub-title">אשראי 1</h3>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">מספר כרטיס אשראי</span>
+              <input class="checkout__input" placeholder="דואר אלקטרוני" type="number">
+            </div>
+          </div>
+          <div class="form-credit__select-3">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">תוקף</span>
+              <select>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+              </select>
+            </div>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">CVV</span>
+              <input class="checkout__input" type="text">
+            </div>
+          </div>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">ת.ז בעל הכרטיס</span>
+              <input class="checkout__input" type="number">
+            </div>
+          </div>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">שם בעל הכרטיס</span>
+              <input class="checkout__input" type="number">
+            </div>
+          </div>
+          <div class="form-credit__wrap">
+            <span class="form-credit__name-input">תשלומים</span>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="" checked>
+            <span>קראתי והסכמתי לתנאי השימוש של האתר</span>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="">
+            <span>ברצוני לקבל הטבות ועדכונים במייל</span>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="" checked>
+            <span>אין צורך בסכן חד פעמי</span>
+          </div>
+          <button class="button-base">שלם</button>
+        </div>
+
+        <div class="form-credit" id="form-credit-2">
+          <h3 class="checkout__sub-title">אשראי 2</h3>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">מספר כרטיס אשראי</span>
+              <input class="checkout__input" placeholder="דואר אלקטרוני" type="number">
+            </div>
+          </div>
+          <div class="form-credit__select-3">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">תוקף</span>
+              <select>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+              </select>
+            </div>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">CVV</span>
+              <input class="checkout__input" type="text">
+            </div>
+          </div>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">ת.ז בעל הכרטיס</span>
+              <input class="checkout__input" type="number">
+            </div>
+          </div>
+          <div class="checkout__wrap-input">
+            <div class="form-credit__wrap">
+              <span class="form-credit__name-input">שם בעל הכרטיס</span>
+              <input class="checkout__input" type="number">
+            </div>
+          </div>
+          <div class="form-credit__wrap">
+            <span class="form-credit__name-input">תשלומים</span>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="" checked>
+            <span>קראתי והסכמתי לתנאי השימוש של האתר</span>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="">
+            <span>ברצוני לקבל הטבות ועדכונים במייל</span>
+          </div>
+          <div class="checkout__wrap-checkbox">
+            <input type="checkbox" name="" id="" checked>
+            <span>אין צורך בסכן חד פעמי</span>
+          </div>
+          <button class="button-base">שלם</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="./js/components/jquery.formstyler.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>

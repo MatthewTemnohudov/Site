@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="menu-7" transform="translate(0 -4)">
+        <path id="Line_56" d="M0 0L13 0" class="cls-1" transform="translate(1 12)"/>
+        <path id="Line_57" d="M0 0L22 0" class="cls-1" transform="translate(1 5)"/>
+        <path id="Line_58" d="M0 0L22 0" class="cls-1" transform="translate(1 19)"/>
+    </g>
+</svg>

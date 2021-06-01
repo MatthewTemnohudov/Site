@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.511" height="18.509" viewBox="0 0 18.511 18.509">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#f35c01;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="phone-call" transform="translate(.761 .75)">
+        <g id="Group_996">
+            <path id="Path_81" d="M10.845 12.071l-1.262 1.58a13.336 13.336 0 0 1-4.736-4.736l1.579-1.263a1.073 1.073 0 0 0 .31-1.273L5.3 3.139a1.073 1.073 0 0 0-1.25-.6l-2.742.715a1.073 1.073 0 0 0-.8 1.192 15.914 15.914 0 0 0 13.55 13.544 1.073 1.073 0 0 0 1.192-.8l.715-2.742a1.073 1.073 0 0 0-.6-1.249l-3.245-1.437a1.073 1.073 0 0 0-1.273.309z" class="cls-1" transform="translate(-.498 -1)"/>
+            <path id="Path_82" d="M8.5 4A3.5 3.5 0 0 1 12 7.5" class="cls-1" transform="translate(1.319 -.319)"/>
+            <path id="Path_83" d="M8.5 1A6.5 6.5 0 0 1 15 7.5" class="cls-1" transform="translate(2 -1)"/>
+        </g>
+    </g>
+</svg>

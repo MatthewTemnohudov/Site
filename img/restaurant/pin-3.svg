@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.269" height="19.5" viewBox="0 0 15.269 19.5">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#f35c01;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="pin-3" transform="translate(.75 .75)">
+        <g id="Group_990">
+            <path id="Path_75" d="M17.769 8.261c0 4.447-6.884 10.739-6.884 10.739S4 12.708 4 8.261A6.966 6.966 0 0 1 10.885 1a6.966 6.966 0 0 1 6.884 7.261z" class="cls-1" transform="translate(-4 -1)"/>
+            <circle id="Ellipse_18" cx="3" cy="3" r="3" class="cls-1" transform="translate(3.885 4.364)"/>
+        </g>
+    </g>
+</svg>
